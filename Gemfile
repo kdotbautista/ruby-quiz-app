@@ -19,7 +19,7 @@ gem 'jbuilder',                '2.7.0'
 gem 'sidekiq',                 '6.5.1'
 gem 'unicorn'
 
-group :development, :test do
+group :development, :test, :staging do
   gem 'sqlite3', '1.3.13'
   gem 'byebug',  '9.0.6', platform: :mri
 end
@@ -31,7 +31,7 @@ group :development do
   gem 'spring-watcher-listen', '2.0.1'
 end
 
-group :test do
+group :test, :staging do
   gem 'rails-controller-testing', '1.0.2'
   gem 'minitest',                 '>= 5.0'
   gem 'minitest-reporters',       '1.1.14'
