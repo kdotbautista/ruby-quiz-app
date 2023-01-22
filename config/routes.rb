@@ -8,6 +8,6 @@ Rails.application.routes.draw do
   post 'quiz/answer'
   get 'quiz/menu'
   post 'quiz/menu'
-  get '/healthcheck'
-  post '/healthcheck'
+  get 'quiz/healthcheck'
+  post 'quiz/healthcheck'
 end
