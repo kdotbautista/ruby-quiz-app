@@ -18,6 +18,7 @@ gem 'turbolinks',              '5.0.1'
 gem 'jbuilder',                '2.7.0'
 gem 'nokogiri',                '1.6.8.1'
 gem 'date',                    '2.0.0'
+gem 'rack',                    '2.2.6.2'
 
 group :development, :test, :staging, :production do
   gem 'sqlite3', '1.3.13'
